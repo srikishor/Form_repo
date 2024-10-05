@@ -1,0 +1,15 @@
+.form-input {
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Transparent background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 8px; /* Add some padding */
+    width: calc(100% - 16px); /* Full width minus padding */
+    margin-top: 4px; /* Space between label and input */
+  }
+  
+  .form-input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007BFF; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Enhanced shadow on focus */
+  }
